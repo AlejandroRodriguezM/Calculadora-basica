@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="436.0" prefWidth="281.0" style="-fx-background-color: #717E8E;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Programa.Calculadora">
+	<children>
+		<Label fx:id="labPantalla" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="12.0" layoutY="9.0" prefHeight="59.0" prefWidth="255.0" style="-fx-background-color: grey;">
+			<font>
+				<Font size="32.0" />
+			</font>
+		</Label>
+		<Button fx:id="bot_uno" layoutX="26.0" layoutY="335.0" mnemonicParsing="false" onAction="#click_uno" prefHeight="40.0" prefWidth="44.0" text="1" />
+		<Button fx:id="bot_dos" layoutX="90.0" layoutY="335.0" mnemonicParsing="false" onAction="#click_dos" prefHeight="40.0" prefWidth="44.0" text="2" />
+		<Button fx:id="bot_tres" layoutX="154.0" layoutY="335.0" mnemonicParsing="false" onAction="#click_tres" prefHeight="40.0" prefWidth="44.0" text="3" />
+		<Button fx:id="bot_cuatro" layoutX="25.0" layoutY="282.0" mnemonicParsing="false" onAction="#click_cuatro" prefHeight="40.0" prefWidth="44.0" text="4" />
+		<Button fx:id="bot_cinco" layoutX="89.0" layoutY="282.0" mnemonicParsing="false" onAction="#click_cinco" prefHeight="40.0" prefWidth="44.0" text="5" />
+		<Button fx:id="bot_seis" layoutX="153.0" layoutY="282.0" mnemonicParsing="false" onAction="#click_seis" prefHeight="40.0" prefWidth="44.0" text="6" />
+		<Button fx:id="bot_siete" layoutX="25.0" layoutY="229.0" mnemonicParsing="false" onAction="#click_siete" prefHeight="40.0" prefWidth="44.0" text="7" />
+		<Button fx:id="bot_ocho" layoutX="89.0" layoutY="229.0" mnemonicParsing="false" onAction="#click_ocho" prefHeight="40.0" prefWidth="44.0" text="8" />
+		<Button fx:id="bot_nueve" layoutX="153.0" layoutY="229.0" mnemonicParsing="false" onAction="#click_nueve" prefHeight="40.0" prefWidth="44.0" text="9" />
+		<Button fx:id="bot_dividir" layoutX="212.0" layoutY="178.0" mnemonicParsing="false" onAction="#click_dividir" prefHeight="40.0" prefWidth="44.0" text="/" />
+		<Button fx:id="bot_multiplicar" layoutX="212.0" layoutY="229.0" mnemonicParsing="false" onAction="#click_multiplicar" prefHeight="40.0" prefWidth="44.0" text="X" />
+		<Button fx:id="bot_restar" layoutX="212.0" layoutY="282.0" mnemonicParsing="false" onAction="#click_restar" prefHeight="40.0" prefWidth="44.0" text="-" />
+		<Button fx:id="bot_sumar" layoutX="212.0" layoutY="334.0" mnemonicParsing="false" onAction="#click_sumar" prefHeight="40.0" prefWidth="44.0" text="+" />
+		<Button fx:id="bot_igual" layoutX="212.0" layoutY="385.0" mnemonicParsing="false" onAction="#click_igual" prefHeight="40.0" prefWidth="44.0" text="=" />
+		<Button fx:id="bot_cero" layoutX="90.0" layoutY="385.0" mnemonicParsing="false" onAction="#click_cero" prefHeight="40.0" prefWidth="44.0" text="0" />
+
+                  		<Button fx:id="bot_punto" layoutX="153.0" layoutY="385.0" mnemonicParsing="false" onAction="#click_punto" prefHeight="40.0" prefWidth="44.0" text="." />
+      <Button fx:id="bot_borrarTodo" layoutX="90.0" layoutY="126.0" mnemonicParsing="false" onAction="#click_borrarTodo" prefHeight="40.0" prefWidth="44.0" text="CE" />
+      <Button fx:id="bot_grabar" layoutX="13.0" layoutY="126.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" text="Guardar" />
+		<Button fx:id="bot_borrarPantalla" layoutX="153.0" layoutY="126.0" mnemonicParsing="false" onAction="#click_borrarPantalla" prefHeight="40.0" prefWidth="44.0" text="C" />
+      <Button fx:id="bot_borrarUltimoNumero" alignment="CENTER" layoutX="210.0" layoutY="126.0" mnemonicParsing="false" onAction="#click_borrarUltimoNumero" prefHeight="40.0" prefWidth="44.0" text="&lt;=">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="bot_raizCuadrada" layoutX="154.0" layoutY="178.0" mnemonicParsing="false" onAction="#click_raiz" prefHeight="40.0" prefWidth="44.0" text="√" />
+      <Button fx:id="bot_cuadrado" layoutX="90.0" layoutY="178.0" mnemonicParsing="false" onAction="#click_cuadrado" prefHeight="40.0" prefWidth="44.0" text="x²" />
+      <Button fx:id="bot_signo" layoutX="26.0" layoutY="384.0" mnemonicParsing="false" onAction="#click_cambioSigno" prefHeight="40.0" prefWidth="44.0" text="+/-" />
+      <Label fx:id="labPantallaExtra" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="12.0" layoutY="68.0" prefHeight="40.0" prefWidth="255.0" style="-fx-background-color: grey;" textFill="#2b65ab">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+	</children>
+</Pane>
