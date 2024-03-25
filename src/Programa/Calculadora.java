@@ -240,7 +240,6 @@ public class Calculadora implements Initializable {
 			labPantalla.setText(String.valueOf(numCuadrado));
 			labPantallaExtra.setText("");
 		}
-
 	}
 
 	@FXML
